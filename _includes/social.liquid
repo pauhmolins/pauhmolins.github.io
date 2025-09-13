@@ -98,6 +98,25 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+    {% when 'codeberg' %}
+      <a href="{{ social[1].url }}" title="{{ social[1].title }}">
+        {%- assign logo = social[1].logo -%}
+        {%- if logo contains '://' -%}
+          {%- assign logo_url = logo -%}
+        {%- else -%}
+          {%- assign logo_url = logo | relative_url -%}
+        {%- endif -%}
+     <!-- Render external SVG as mask so it paints with currentColor (follows theme).
+       Add class 'ai' so it shares the same font-size sizing rules as icon fonts. -->
+     <svg class="custom-social" role="img" aria-label="{{ social[1].title }}" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <mask id="codeberg-mask-{{ forloop.index }}" maskUnits="objectBoundingBox">
+              <image href="{{ logo_url }}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" />
+            </mask>
+          </defs>
+          <rect width="100%" height="100%" fill="currentColor" mask="url(#codeberg-mask-{{ forloop.index }})" />
+        </svg>
+      </a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}

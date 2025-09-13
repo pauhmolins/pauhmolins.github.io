@@ -419,6 +419,11 @@ ul.task-list input[type="checkbox"] {
           width: 3.5rem;
           height: 3.5rem;
         }
+
+        &.custom-social,
+        .custom-social {
+          color: var(--global-text-color);
+        }
       }
 
       i::before {
@@ -430,6 +435,11 @@ ul.task-list input[type="checkbox"] {
         text-decoration: none;
 
         i::before {
+          color: var(--global-theme-color);
+        }
+
+        svg.custom-social,
+        .custom-social {
           color: var(--global-theme-color);
         }
       }
@@ -736,6 +746,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        display: inline-block;
       }
 
       .abbr {

@@ -27,6 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a last year student of MSc in *Machine Learning and Cybersecurity for Internet-Connected Systems* at [EPSEM - UPC](https://epsem.upc.edu/en?set_language=en).
+I am a last year student of MSc in *Machine Learning and Cybersecurity for Internet-Connected Systems* at [UPC](https://epsem.upc.edu/en?set_language=en).
 
-I'm currently working with [Georgios Bakirtzis](https://bakirtzis.net/) on dynamic preference structures in multi-objective problems applide to reinforcement learning.
+I'm currently working with [Georgios Bakirtzis](https://bakirtzis.net/) on mathematical programming and research on game theory for modeling
+multi-agent control scenarios with strictly ranked metrics.

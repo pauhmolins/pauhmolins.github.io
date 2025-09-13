@@ -7,7 +7,7 @@
       "startDate": "2023-01-01",
       "endDate": "2024-08-31",
       "summary": "Worked on the research project 'MobileWuR: Pushing the limits of energy efficiency in mobile devices through wake-up radio solutions'.",
-      "highlights": ["MobileWuR project", "Energy-efficient mobile devices"]
+      "highlights": []
     },
     {
       "name": "Universitat Politècnica de Catalunya (UPC)",
@@ -16,7 +16,7 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-30",
       "summary": "Taught courses on informatics, systems integration, applications and services on the internet, and embedded systems.",
-      "highlights": ["Taught informatics", "Taught embedded systems"]
+      "highlights": []
     },
     {
       "name": "UVE Solutions",
@@ -25,7 +25,7 @@
       "startDate": "2024-05-01",
       "endDate": "",
       "summary": "Develop and maintain backend software for the main data ingestion, storage and exploitation pipeline. Deploy and manage services for external consumption.",
-      "highlights": ["Backend development", "Service deployment"]
+      "highlights": []
     },
     {
       "name": "UVE Solutions",
@@ -34,7 +34,7 @@
       "startDate": "2019-11-01",
       "endDate": "2024-05-01",
       "summary": "Implemented software for data extraction, transformation, and loading (ETL). Responsible for requirements gathering and customer management.",
-      "highlights": ["ETL development", "Customer management"]
+      "highlights": []
     },
     {
       "name": "Johnson Controls Hitachi Air Conditioning Spain",
@@ -43,7 +43,7 @@
       "startDate": "2019-05-01",
       "endDate": "2019-07-31",
       "summary": "Reviewed and updated protocols related to laboratory standards. Designed and executed hardware and software tests on new prototypes.",
-      "highlights": ["Protocol review", "Prototype testing"]
+      "highlights": []
     }
   ],
   "education": [
