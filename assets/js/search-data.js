@@ -51,13 +51,6 @@ ninja.data = [{
           window.open("mailto:%70%61%75.%64%65.%6C%61%73.%68%65%72%61%73@%65%73%74%75%64%69%61%6E%74%61%74.%75%70%63.%65%64%75", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/pauhmolins", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -65,18 +58,25 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/pau-de-las-heras-molins", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/pauhmolins", "_blank");
+        },
+      },{
+        id: 'social-codeberg',
+        title: 'Codeberg',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://codeberg.org/pauhmolins", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0009-0007-0963-0171", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
