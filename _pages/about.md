@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a last year student of MSc in *Machine Learning and Cybersecurity for Internet-Connected Systems* at [UPC](https://epsem.upc.edu/en?set_language=en).
+I am a last year student of MSc in _Machine Learning and Cybersecurity for Internet-Connected Systems_ at [UPC](https://epsem.upc.edu/en?set_language=en).
 
 My research is dedicated to creating intelligent and autonomous systems by integrating principles from mathematical programming, game theory, and reinforcement learning. I develop algorithms designed to solve complex decision-making problems, with a particular focus on scenarios governed by ranked metrics. My research is grounded in autonomous driving applications. I currently work on these things with [Georgios Bakirtzis](https://bakirtzis.net/).

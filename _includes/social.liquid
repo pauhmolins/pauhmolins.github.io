@@ -106,9 +106,11 @@
         {%- else -%}
           {%- assign logo_url = logo | relative_url -%}
         {%- endif -%}
-     <!-- Render external SVG as mask so it paints with currentColor (follows theme).
-       Add class 'ai' so it shares the same font-size sizing rules as icon fonts. -->
-     <svg class="custom-social" role="img" aria-label="{{ social[1].title }}" xmlns="http://www.w3.org/2000/svg">
+        <!--
+          Render external SVG as mask so it paints with currentColor (follows theme).
+          Add class 'ai' so it shares the same font-size sizing rules as icon fonts.
+        -->
+        <svg class="custom-social" role="img" aria-label="{{ social[1].title }}" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <mask id="codeberg-mask-{{ forloop.index }}" maskUnits="objectBoundingBox">
               <image href="{{ logo_url }}" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" />
