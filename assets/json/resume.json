@@ -1,4 +1,54 @@
 {
+  "projects": [
+    {
+      "name": "Controlling multi-objective reinforcement learning agents through preference",
+      "startDate": "2026",
+      "endDate": "",
+      "summary": "Invite talk at University of Michigan"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Czech Technical University (CTU)",
+      "location": "Prague, Czechia",
+      "url": "",
+      "area": "IEEE Summer School on Multi-Robot Systems",
+      "studyType": "Summer School",
+      "startDate": "2025-07-01",
+      "endDate": "2025-08-31",
+      "courses": []
+    },
+    {
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "location": "Barcelona, Spain",
+      "url": "",
+      "area": "Machine Learning & Cybersecurity",
+      "studyType": "MSc",
+      "startDate": "2024-09-01",
+      "endDate": "2026-01-31",
+      "courses": []
+    },
+    {
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "location": "Barcelona, Spain",
+      "url": "",
+      "area": "ICT Systems Engineering",
+      "studyType": "BSc",
+      "startDate": "2015-09-01",
+      "endDate": "2019-10-31",
+      "courses": []
+    },
+    {
+      "institution": "Eidgenössische Technische Hochschule Zürich (ETH)",
+      "location": "Zurich, Switzerland",
+      "url": "",
+      "area": "MSc Courses",
+      "studyType": "Exchange",
+      "startDate": "2018-09-01",
+      "endDate": "2019-02-28",
+      "courses": []
+    }
+  ],
   "work": [
     {
       "name": "Universitat Politècnica de Catalunya (UPC)",
@@ -46,54 +96,11 @@
       "highlights": []
     }
   ],
-  "education": [
-    {
-      "institution": "Czech Technical University (CTU)",
-      "location": "Prague, Czech Republic",
-      "url": "",
-      "area": "IEEE Summer School on Multi-Robot Systems",
-      "studyType": "Summer School",
-      "startDate": "2025-07-01",
-      "endDate": "2025-08-31",
-      "courses": []
-    },
-    {
-      "institution": "Universitat Politècnica de Catalunya (UPC)",
-      "location": "Barcelona, Spain",
-      "url": "",
-      "area": "Machine Learning & Cybersecurity",
-      "studyType": "MSc",
-      "startDate": "2024-09-01",
-      "endDate": "",
-      "courses": []
-    },
-    {
-      "institution": "Universitat Politècnica de Catalunya (UPC)",
-      "location": "Barcelona, Spain",
-      "url": "",
-      "area": "ICT Systems Engineering",
-      "studyType": "BSc",
-      "startDate": "2015-09-01",
-      "endDate": "2019-10-31",
-      "courses": []
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule Zürich (ETH)",
-      "location": "Zurich, Switzerland",
-      "url": "",
-      "area": "MSc Courses",
-      "studyType": "Exchange",
-      "startDate": "2018-09-01",
-      "endDate": "2019-02-31",
-      "courses": []
-    }
-  ],
   "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [],
   "interests": [],
-  "references": [],
-  "projects": []
+  "references": []
 }
