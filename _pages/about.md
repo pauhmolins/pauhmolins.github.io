@@ -3,9 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='https://www.upc.edu/en?set_language=en'>Universitat Politècnica de Catalunya (UPC)</a>
-  <br>
-  <a href='mailto:pau.de.las.heras@estudiantat.upc.edu'>pau.de.las.heras@estudiantat.upc.edu</a>
+  <a href='mailto:mail@paudelasheras.net'>mail@paudelasheras.net</a>
 
 profile:
   align: right
@@ -26,7 +24,5 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-I am a last year student of MSc in _Machine Learning and Cybersecurity for Internet-Connected Systems_ at [UPC](https://epsem.upc.edu/en?set_language=en).
 
 My research is dedicated to creating intelligent and autonomous systems by integrating principles from mathematical programming, game theory, and reinforcement learning. I develop algorithms designed to solve complex decision-making problems, with a particular focus on scenarios governed by ranked metrics. My research is grounded in autonomous driving applications. I currently work on these things with [Georgios Bakirtzis](https://bakirtzis.net/).
