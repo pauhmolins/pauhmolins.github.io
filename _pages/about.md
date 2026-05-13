@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='mailto:mail@paudelasheras.net'>mail@paudelasheras.net</a>
+  <a href='mailto:delasherasmolins@telecom-paris.fr'>delasherasmolins@telecom-paris.fr</a>
 
 profile:
   align: right
@@ -25,4 +25,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research is dedicated to creating intelligent and autonomous systems by integrating principles from mathematical programming, game theory, and reinforcement learning. I develop algorithms designed to solve complex decision-making problems, with a particular focus on scenarios governed by ranked metrics. My research is grounded in autonomous driving applications. I currently work on these things with [Georgios Bakirtzis](https://bakirtzis.net/).
+My research is dedicated to creating
+intelligent and autonomous systems
+that can solve complex decision-making problems
+while adhering to preference specifications,
+such as ranked metrics.
+I study and develop algorithms by integrating principles
+from mathematical programming, game theory,
+and reinforcement learning.
+My research is grounded in autonomous driving applications.
+I currently work on these things
+with [Georgios Bakirtzis](https://bakirtzis.net/).

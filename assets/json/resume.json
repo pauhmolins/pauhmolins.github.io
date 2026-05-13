@@ -4,7 +4,7 @@
       "name": "Controlling multi-objective reinforcement learning agents through preference",
       "startDate": "2026",
       "endDate": "",
-      "summary": "Invite talk at University of Michigan"
+      "summary": "Invite talks at University of Michigan, Iowa State University"
     }
   ],
   "education": [
@@ -51,12 +51,21 @@
   ],
   "work": [
     {
+      "name": "Institut Polytechnique de Paris",
+      "position": "Research Engineer",
+      "url": "",
+      "startDate": "2026-04-01",
+      "endDate": "",
+      "summary": "Support by the research chair <a href=\"https://www.ip-paris.fr/recherche/chaires/asc\">Architecture des Systèmes Complexes</a> within <a href=\"https://www.telecom-paris.fr/fr/recherche/labos/traitement-information-ltci\">LTCI</a>, <a href=\"https://www.telecom-paris.fr/\">Télécom Paris</a>.",
+      "highlights": []
+    },
+    {
       "name": "Universitat Politècnica de Catalunya (UPC)",
       "position": "Research Associate",
       "url": "",
       "startDate": "2023-01-01",
       "endDate": "2024-08-31",
-      "summary": "Worked on the research project 'MobileWuR: Pushing the limits of energy efficiency in mobile devices through wake-up radio solutions'.",
+      "summary": "Worked on the research project '<a href=\"https://futur.upc.edu/34220558?locale=en\">MobileWuR</a>: Pushing the limits of energy efficiency in mobile devices through wake-up radio solutions'.",
       "highlights": []
     },
     {
