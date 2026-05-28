@@ -43,7 +43,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{
+            },},{id: "news-i-gave-a-talk-at-umich-in-inigo-incer-s-group-controlling-multi-objective-reinforcement-learning-agents-through-preference",
+          title: 'I gave a talk at UMich in Inigo Incer’s group: Controlling multi-objective reinforcement...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-the-controllability-of-morl-agents-has-been-accepted-for-publication-at-neus-2026-see-you-in-la",
+          title: 'Our paper on the controllability of MORL agents has been accepted for publication...',
+          description: "",
+          section: "News",},{id: "news-i-gave-a-talk-at-isu-in-cody-fleming-s-group-controlling-multi-objective-reinforcement-learning-agents-through-preference",
+          title: 'I gave a talk at ISU in Cody Fleming’s group: Controlling multi-objective reinforcement...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-visiting-mit-this-summer-to-work-with-gioele-zardini",
+          title: 'I will be visiting MIT this summer to work with Gioele Zardini.',
+          description: "",
+          section: "News",},{id: "news-i-will-be-visiting-ut-austin-this-summer-to-work-with-david-fridovich-keil-s-group",
+          title: 'I will be visiting UT Austin this summer to work with David Fridovich-Keil’s...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
