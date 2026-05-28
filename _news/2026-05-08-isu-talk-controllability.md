@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk at [ISU](https://www.iastate.edu/) in [Cody Fleming](https://www.engineering.iastate.edu/people/profile/flemingc/)'s group: *Controlling multi-objective reinforcement learning agents through preference*.
+I gave a talk at [ISU](https://www.iastate.edu/) in [Cody Fleming](https://www.engineering.iastate.edu/people/profile/flemingc/)'s group: _Controlling multi-objective reinforcement learning agents through preference_.
