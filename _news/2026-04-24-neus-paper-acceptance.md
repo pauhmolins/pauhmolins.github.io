@@ -6,4 +6,4 @@ related_posts: false
 hide_day: true
 ---
 
-Our [paper](https://arxiv.org/abs/2605.10585) on the controllability of MORL agents has been accepted for publication at [NeuS 2026](https://sites.google.com/usc.edu/neus2026/home). See you in LA!
+Our work on the [controllability of MORL agents](https://arxiv.org/abs/2605.10585) has been accepted for publication at [NeuS 2026](https://sites.google.com/usc.edu/neus2026/home). See you in LA!

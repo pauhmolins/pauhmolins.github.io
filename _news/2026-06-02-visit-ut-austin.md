@@ -6,4 +6,4 @@ related_posts: false
 hide_day: true
 ---
 
-I will be visiting [UT Austin](https://www.utexas.edu/) this summer to work with [David Fridovich-Keil](https://dfridovi.github.io/)'s group.
+I will be visiting the [Center for Autonomy](https://autonomy.oden.utexas.edu/) at [UT Austin](https://www.utexas.edu/) this summer to work with [David Fridovich-Keil](https://dfridovi.github.io/)'s group.
