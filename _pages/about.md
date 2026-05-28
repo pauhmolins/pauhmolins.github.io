@@ -35,5 +35,5 @@ from mathematical programming, game theory,
 and reinforcement learning.
 My research is grounded in autonomous driving applications.
 I currently work on these things
-w/ [Georgios Bakirtzis](https://bakirtzis.net/)
+with [Georgios Bakirtzis](https://bakirtzis.net/)
 at Télécom Paris, Institut Polytechnique de Paris.
