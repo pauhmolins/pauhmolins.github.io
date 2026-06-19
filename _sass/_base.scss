@@ -327,6 +327,11 @@ ul.task-list input[type="checkbox"] {
           width: 1.7rem;
           height: 1.7rem;
         }
+
+        &.custom-social {
+          color: var(--global-text-color);
+          transition: color 0.2s ease-in-out;
+        }
       }
 
       i::before {
@@ -336,6 +341,10 @@ ul.task-list input[type="checkbox"] {
 
       &:hover {
         i::before {
+          color: var(--global-theme-color);
+        }
+
+        svg.custom-social {
           color: var(--global-theme-color);
         }
       }
