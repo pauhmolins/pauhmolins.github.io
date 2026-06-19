@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "cv",
+  },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -51,6 +51,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-gave-a-talk-at-isu-in-cody-fleming-s-group-controlling-multi-objective-reinforcement-learning-agents-through-preference",
           title: 'I gave a talk at ISU in Cody Fleming’s group: Controlling multi-objective reinforcement...',
+          description: "",
+          section: "News",},{id: "news-i-attended-the-reinforcement-learning-summer-school-rlss-at-the-politecnico-di-milano",
+          title: 'I attended the Reinforcement Learning Summer School (RLSS) at the Politecnico di Milano....',
           description: "",
           section: "News",},{id: "news-i-visited-the-intelligent-control-icon-lab-at-uc-berkeley-and-gave-a-talk-preference-in-agent-control",
           title: 'I visited the Intelligent Control (ICON) lab at UC Berkeley and gave a...',
@@ -103,30 +106,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=IllF8G4AAAAJ", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
