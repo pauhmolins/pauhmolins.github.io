@@ -208,11 +208,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
@@ -223,6 +223,79 @@ ul.task-list input[type="checkbox"] {
       p {
         display: block;
       }
+    }
+  }
+}
+
+// About page flex layout
+.about-content-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  margin-bottom: 2rem;
+
+  .about-text {
+    flex: 1;
+    min-width: 0;
+
+    .clearfix > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .profile {
+    position: relative;
+    flex-shrink: 0;
+    width: 30%;
+    margin: 0;
+
+    figure {
+      position: absolute;
+      inset: 0;
+      margin: 0;
+
+      picture {
+        display: block;
+        height: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+
+  .profile-left {
+    order: -1;
+  }
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: center;
+
+    .profile {
+      position: static;
+      width: 55%;
+      order: -1;
+
+      figure {
+        position: static;
+
+        picture {
+          height: auto;
+        }
+
+        img {
+          height: auto;
+        }
+      }
+    }
+
+    .about-text {
+      width: 100%;
     }
   }
 }

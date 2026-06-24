@@ -7,7 +7,7 @@ subtitle: >
 
 profile:
   align: right
-  image:
+  image: photo.png
   image_circular: false # crops the image to make it circular
   more_info:
 
@@ -33,7 +33,7 @@ such as ranked metrics.
 I study and develop algorithms by integrating principles
 from mathematical programming, game theory,
 and reinforcement learning.
-My research is grounded in autonomous driving applications.
+
 I currently work on these topics
 with [Georgios Bakirtzis](https://bakirtzis.net/)
 at [Télécom Paris](https://www.telecom-paris.fr/), [Institut Polytechnique de Paris](https://www.ip-paris.fr/).
