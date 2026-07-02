@@ -6,4 +6,4 @@ related_posts: false
 hide_day: true
 ---
 
-I visited the [Intelligent Control (ICON) lab](https://iconlab.negarmehr.com/) at [UC Berkeley](https://www.berkeley.edu/) and gave a talk: _Preference in agent control_.
+I visited the [ICON lab](https://iconlab.negarmehr.com/) at [UC Berkeley](https://www.berkeley.edu/) and gave a talk: _Preference in agent control_.

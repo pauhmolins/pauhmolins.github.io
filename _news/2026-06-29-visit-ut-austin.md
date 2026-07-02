@@ -6,4 +6,4 @@ related_posts: false
 hide_day: true
 ---
 
-I will be visiting the [Center for Autonomy](https://autonomy.oden.utexas.edu/) at [UT Austin](https://www.utexas.edu/) to work with [David Fridovich-Keil](https://dfridovi.github.io/)'s group.
+I visited the [Oden Institute](https://oden.utexas.edu/) at [UT Austin](https://www.utexas.edu/) and gave a talk at the [Center for Autonomy](https://autonomy.oden.utexas.edu/) seminar: _Preference in agent control_.
