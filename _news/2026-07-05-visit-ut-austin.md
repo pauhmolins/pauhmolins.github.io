@@ -6,4 +6,4 @@ related_posts: false
 hide_day: true
 ---
 
-I visited the [Oden Institute](https://oden.utexas.edu/) at [UT Austin](https://www.utexas.edu/) and gave a talk at the [Center for Autonomy](https://autonomy.oden.utexas.edu/) seminar: _Preference in agent control_.
+I visited the [Oden Institute](https://oden.utexas.edu/) at [UT Austin](https://www.utexas.edu/) and gave a talk at the [Center for Autonomy](https://autonomy.oden.utexas.edu/): _Preference in agent control_.
