@@ -61,7 +61,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-visited-lids-at-mit-and-gave-a-talk-to-gioele-zardini-s-group-preference-in-agent-control",
           title: 'I visited LIDS at MIT and gave a talk to Gioele Zardini’s group:...',
           description: "",
-          section: "News",},{id: "news-i-visited-the-oden-institute-at-ut-austin-and-gave-a-talk-at-the-center-for-autonomy-seminar-preference-in-agent-control",
+          section: "News",},{id: "news-i-visited-the-oden-institute-at-ut-austin-and-gave-a-talk-at-the-center-for-autonomy-preference-in-agent-control",
           title: 'I visited the Oden Institute at UT Austin and gave a talk at...',
           description: "",
           section: "News",},{
