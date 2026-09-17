@@ -64,6 +64,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-visited-the-oden-institute-at-ut-austin-and-gave-a-talk-at-the-center-for-autonomy-seminar-preference-in-agent-control",
           title: 'I visited the Oden Institute at UT Austin and gave a talk at...',
           description: "",
+          section: "News",},{id: "news-i-visited-the-scool-team-at-inria-lille-and-gave-a-talk-alongside-bastien-lechardoy-do-preferences-control-behavior",
+          title: 'I visited the Scool team at Inria Lille and gave a talk alongside...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
