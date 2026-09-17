@@ -1,4 +1,5 @@
-FROM ruby:slim
+# pinned to a stable release compatible with Gemfile.lock (unpinned "ruby:slim" can float to unstable Ruby releases)
+FROM ruby:3.3-slim
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
