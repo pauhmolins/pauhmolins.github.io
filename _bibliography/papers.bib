@@ -3,6 +3,23 @@
 
 string{aps = {American Physical Society,}}
 
+@misc{lechardoy2026cascadedconsensussplitting,
+  title={Cascaded consensus splitting for multi-branch contingency games}, 
+  author={Lechardoy, B. and {de las Heras Molins}, P. and Lahire, T. and Pautet, L. and Filliat, D. and Fridovich-Keil, D. and Bakirtzis, G.},
+  abstract={Contingency games enable agents to anticipate and plan for other agents' hypothetical intents by constructing trajectories with a shared prefix and intent-dependent branches. While contingency games capture intent uncertainty, existing formulations rely on a single branching time, oversimplifying interactions in which different agents' intentions are revealed at different times. Moreover, the computational cost of such problems grows rapidly with the number of agents and intents, as all scenario-dependent best responses must be solved jointly. We introduce a multi-branch contingency architecture in which sources of intent uncertainty can be resolved progressively at different branching times, allowing the planned trajectories to adapt to the asynchronous revelation of intents. We also develop an ADMM-based solver that exploits scenario-level parallelism. Experiments on tightly coupled three-agent interactions support that the proposed architecture outperforms the conventional single-branch while achieving a lower mean receding-horizon solve time.},
+  year={2026},
+  eprint={2609.37612},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2609.37612}, 
+  html={https://arxiv.org/abs/2609.37612},
+  pdf={https://arxiv.org/pdf/2609.37612},
+  selected={true},
+  preview={cascaded_consensus_splitting.png},
+  bibtex_show = {true},
+  additional_info={*preprint*}
+}
+
 @misc{molins2026controllability,
   title={Controllability in preference-conditioned multi-objective reinforcement learning}, 
   author={{de las Heras Molins}, P. and Yalcinkaya, B. and Peters, L. and Fridovich-Keil, D. and Bakirtzis, G.},
@@ -21,7 +38,7 @@ string{aps = {American Physical Society,}}
   additional_info={*International Conference on Neuro-Symbolic Systems ([NeuS](https://sites.google.com/usc.edu/neus2026/home))*}
 }
 
-@misc{molins2025approximatesolutionsgamesordered,
+@misc{molins2025approximatesolutionsgamesorderedpreference,
   title={Approximate solutions to games of ordered preference}, 
   author={{de las Heras Molins}*, P. and Roy-Almonacid*, E. and Lee, D. H. and Peters, L. and Fridovich-Keil, D. and Bakirtzis, G.},
   abstract={Autonomous vehicles must balance ranked objectives, such as minimizing travel time, ensuring safety, and coordinating with traffic. Games of ordered preference effectively model these interactions but become computationally intractable as the time horizon, number of players, or number of preference levels increase. While receding horizon frameworks mitigate long-horizon intractability by solving sequential shorter games, often warm-started, they do not resolve the complexity growth inherent in existing methods for solving games of ordered preference. This paper introduces a solution strategy that avoids excessive complexity growth by approximating solutions using lexicographic iterated best response (IBR) in receding horizon, termed "lexicographic IBR over time." Lexicographic IBR over time uses past information to accelerate convergence. We demonstrate through simulated traffic scenarios that lexicographic IBR over time efficiently computes approximate-optimal solutions for receding horizon games of ordered preference, converging towards generalized Nash equilibria.},
