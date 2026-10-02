@@ -1,168 +1,65 @@
----
----
-
-string{aps = {American Physical Society,}}
+@misc{roldansanchez2026crossentropyoptimizationprioritizedconstraints,
+  title={Cross-entropy optimization with prioritized constraints}, 
+  author={Roldan Sanchez, F. and {de las Heras Molins}, P. and Fridovich-Keil, D. and Bakirtzis, G.},
+  abstract={When constraints conflict, an optimizer must determine which requirements to preserve and which to relax. On the one hand, a priority ordering specifies which requirements take precedence. On the other hand, penalty-based formulations encode their relative importance through numerical weights. Depending on these weights, a solution can improve its weighted score while violating intended priorities. We introduce TierCEM, a variant of the cross-entropy method that incorporates strict constraint priorities directly into elite selection without requiring per-constraint importance weights. TierCEM works by sequentially filtering sampled candidates, from highest- to lowest-priority constraint. If and when a constraint eliminates all remaining candidates, TierCEM returns to the last nonempty set and selects elites with the smallest violations of that blocking constraint, recursively preserving satisfaction of all higher-priority constraints. We evaluate TierCEM on 2D navigation and contact-rich pushing tasks in proprioceptive and learned world-model settings. Experiments show that reversing the constraint ordering changes which constraints are violated under conflict. Prioritizing progress toward the task objective also enables TierCEM to relax lower-priority constraints when they would otherwise prevent further progress.},
+  year={2026},
+  arxiv={2610.01319},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2610.01319},
+  pdf={https://arxiv.org/pdf/2610.01319},
+  selected={true},
+  preview={tiercem.png},
+  bibtex_show={true},
+  additional_info={*preprint*}
+}
 
 @misc{lechardoy2026cascadedconsensussplitting,
   title={Cascaded consensus splitting for multi-branch contingency games}, 
   author={Lechardoy, B. and {de las Heras Molins}, P. and Lahire, T. and Pautet, L. and Filliat, D. and Fridovich-Keil, D. and Bakirtzis, G.},
   abstract={Contingency games enable agents to anticipate and plan for other agents' hypothetical intents by constructing trajectories with a shared prefix and intent-dependent branches. While contingency games capture intent uncertainty, existing formulations rely on a single branching time, oversimplifying interactions in which different agents' intentions are revealed at different times. Moreover, the computational cost of such problems grows rapidly with the number of agents and intents, as all scenario-dependent best responses must be solved jointly. We introduce a multi-branch contingency architecture in which sources of intent uncertainty can be resolved progressively at different branching times, allowing the planned trajectories to adapt to the asynchronous revelation of intents. We also develop an ADMM-based solver that exploits scenario-level parallelism. Experiments on tightly coupled three-agent interactions support that the proposed architecture outperforms the conventional single-branch while achieving a lower mean receding-horizon solve time.},
   year={2026},
-  eprint={2609.37612},
+  arxiv={2609.37612},
   archivePrefix={arXiv},
   primaryClass={cs.RO},
   url={https://arxiv.org/abs/2609.37612}, 
-  html={https://arxiv.org/abs/2609.37612},
   pdf={https://arxiv.org/pdf/2609.37612},
   selected={true},
   preview={cascaded_consensus_splitting.png},
-  bibtex_show = {true},
+  bibtex_show={true},
   additional_info={*preprint*}
 }
 
-@misc{molins2026controllability,
+@misc{delasherasmolins2026controllability,
   title={Controllability in preference-conditioned multi-objective reinforcement learning}, 
   author={{de las Heras Molins}, P. and Yalcinkaya, B. and Peters, L. and Fridovich-Keil, D. and Bakirtzis, G.},
   abstract={Multi-objective reinforcement learning (MORL) allows a user to express preference over outcomes in terms of the relative importance of the objectives, but standard metrics cannot capture whether changes in preference reliably change the agent's behavior in the intended way, a property termed controllability. As a result, preference-conditioned agents can score well on standard MORL metrics while being insensitive to the preference input. If the ability to control agents cannot be reliably assessed, the symbolic interface that MORL provides between user intent and agent behavior is broken. Mainstream MORL metrics alone fail to measure the controllability of preference-conditioned agents, motivating a complementary metric specifically designed to that end. We hope the results spur discussion in the community on existing evaluation protocols to consolidate advances in preference adaptation in MORL to larger and more complex problems.},
   year={2026},
-  eprint={2605.10585},
+  arxiv={2605.10585},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
   url={https://arxiv.org/abs/2605.10585}, 
-  html={https://arxiv.org/abs/2605.10585},
   pdf={https://arxiv.org/pdf/2605.10585},
   selected={true},
   preview={dynamic_adaptation.png},
   poster={26neus.pdf},
-  bibtex_show = {true},
+  bibtex_show={true},
   additional_info={*International Conference on Neuro-Symbolic Systems ([NeuS](https://sites.google.com/usc.edu/neus2026/home))*}
 }
 
-@misc{molins2025approximatesolutionsgamesorderedpreference,
+@misc{delasherasmolins2025approximatesolutionsgamesorderedpreference,
   title={Approximate solutions to games of ordered preference}, 
   author={{de las Heras Molins}*, P. and Roy-Almonacid*, E. and Lee, D. H. and Peters, L. and Fridovich-Keil, D. and Bakirtzis, G.},
   abstract={Autonomous vehicles must balance ranked objectives, such as minimizing travel time, ensuring safety, and coordinating with traffic. Games of ordered preference effectively model these interactions but become computationally intractable as the time horizon, number of players, or number of preference levels increase. While receding horizon frameworks mitigate long-horizon intractability by solving sequential shorter games, often warm-started, they do not resolve the complexity growth inherent in existing methods for solving games of ordered preference. This paper introduces a solution strategy that avoids excessive complexity growth by approximating solutions using lexicographic iterated best response (IBR) in receding horizon, termed "lexicographic IBR over time." Lexicographic IBR over time uses past information to accelerate convergence. We demonstrate through simulated traffic scenarios that lexicographic IBR over time efficiently computes approximate-optimal solutions for receding horizon games of ordered preference, converging towards generalized Nash equilibria.},
   year={2025},
-  eprint={2507.11021},
+  arxiv={2507.11021},
   archivePrefix={arXiv},
   primaryClass={eess.SY},
   url={https://arxiv.org/abs/2507.11021},
-  html={https://arxiv.org/abs/2507.11021},
   pdf={https://arxiv.org/pdf/2507.11021},
   selected={true},
   preview={lex-ibr-ot.png},
   poster={25itsc.pdf},
-  bibtex_show = {true},
+  bibtex_show={true},
   additional_info={*IEEE International Conference on Intelligent Transportation Systems ([ITSC](https://ieee-itsc.org/2025/))*}
-}
-
-book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
