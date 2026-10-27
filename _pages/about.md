@@ -25,14 +25,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research is dedicated to creating
-intelligent and autonomous systems
-that can solve complex decision-making problems
-while adhering to preference specifications.
-I study and develop algorithms by integrating principles
-from mathematical programming, game theory,
-and reinforcement learning.
+I am interested in producing generalist open-ended autonomous agents
+capable of succesfully navigating complex and evolving multi-agent scenarios.
+I study and develop methods that endow agents with the ability
+to continually learn by observing the behavior of other agents and humans during deployment,
+enabling fast and safe adaptation to changing environments, tasks, and contexts.
 
-I currently work on these topics as a PhD student
+I currently work on this as a PhD student
 with [Georgios Bakirtzis](https://bakirtzis.net/)
-at [Télécom Paris](https://www.telecom-paris.fr/), [Institut Polytechnique de Paris](https://www.ip-paris.fr/).
+at [Télécom Paris](https://www.telecom-paris.fr/),
+[Institut Polytechnique de Paris](https://www.ip-paris.fr/).
